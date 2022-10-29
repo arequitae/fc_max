@@ -20,17 +20,43 @@ export default function FunctionCal() {
     const d = Number.parseFloat(_.get(dRef, 'current.input.value'));
     const m = Number.parseFloat(_.get(mRef, 'current.input.value'));
     const n = Number.parseFloat(_.get(nRef, 'current.input.value'));
-
-    const newResult = [
-      (b * n - d * m) / (b * c - a * d),
-      (a * n - c * m) / (a * d - b * c),
-    ];
-    setResult(newResult);
+    if (type === 1) {
+      const newResult = [
+        (b * n - d * m) / (b * c - a * d),
+        (a * n - c * m) / (a * d - b * c),
+      ];
+      setResult(newResult);
+    } else if (type === 2) {
+      const newResult = [
+        (-b + Math.sqrt(b * b - 4 * a * m)) / (2 * a),
+        (-b - Math.sqrt(b * b - 4 * a * m)) / (2 * a),
+      ];
+      setResult(newResult);
+    }
   };
   const changeType = (e) => {
     setType(e.target.value);
   };
-  let x = 0;
+  const twoX = (
+    <>
+      <Row>
+        <Input ref={aRef}></Input>x+<Input ref={bRef}></Input>y=
+        <Input ref={mRef}></Input>
+      </Row>
+      <Row>
+        <Input ref={cRef}></Input>x+<Input ref={dRef}></Input>y=
+        <Input ref={nRef}></Input>
+      </Row>
+    </>
+  );
+  const Xpow = (
+    <>
+      <Row>
+        <Input ref={aRef}></Input>x**2+<Input ref={bRef}></Input>x+
+        <Input ref={mRef}></Input>=0
+      </Row>
+    </>
+  );
   useEffect(() => {}, [type]);
   return (
     <>
@@ -40,14 +66,7 @@ export default function FunctionCal() {
           <Radio.Button value={2}>一元二次</Radio.Button>
         </Radio.Group>
       </Row>
-      <Row>
-        <Input ref={aRef}></Input>x+<Input ref={bRef}></Input>y=
-        <Input ref={mRef}></Input>
-      </Row>
-      <Row>
-        <Input ref={cRef}></Input>x+<Input ref={dRef}></Input>y=
-        <Input ref={nRef}></Input>
-      </Row>
+      {type === 1 ? twoX : Xpow}
       <Button onClick={calculate}>计算</Button>
       <Divider />
       <Row>
