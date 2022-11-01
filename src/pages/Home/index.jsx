@@ -1,16 +1,21 @@
-import Guide from '@/components/Guide';
 import FunctionCal from '@/components/FunctionCal';
-import { trim } from '@/utils/format';
 import { PageContainer } from '@ant-design/pro-components';
-import { useModel } from '@umijs/max';
 import styles from './index.less';
+import { testConnect } from '../../services/basicService';
 
 const HomePage = () => {
-  const { name } = useModel('global');
+  testConnect().then((data) => {
+    console.log(data);
+  });
   return (
     <PageContainer ghost>
       <div className={styles.container}>
-        <FunctionCal />
+        <h1>Arequitae</h1>
+        <script
+          type="text/javascript"
+          id="clstr_globe"
+          src="//clustrmaps.com/globe.js?d=YejPRoMWOl5OUBKZsCd1pA2p00jHEvXirjU1HBPkY_o"
+        ></script>
       </div>
     </PageContainer>
   );

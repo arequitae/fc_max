@@ -7,17 +7,18 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: 'Arequitae',
   },
   routes: [
     {
+      name: '首页',
       path: '/',
-      redirect: '/home',
+      component: './Home',
     },
     {
-      name: '首页',
-      path: '/home',
-      component: './Home',
+      name: '工具箱',
+      path: '/tool',
+      component: './Tool',
     },
   ],
   npmClient: 'yarn',

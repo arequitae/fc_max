@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c9dcad4-2b00-436a-9fae-b755ad660b37" name="Changes" comment="feat: add 一元二次">
+    <list default="true" id="2c9dcad4-2b00-436a-9fae-b755ad660b37" name="Changes" comment="feat:add clustrmaps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,23 +23,35 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2GnHbMcTUiyirn2QropjiMEFWp3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "E:\\React_workplace\\fc_max\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "ts.external.directory.path": "E:\\React_workplace\\fc_max\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/React_workplace/fc_max/src/pages/Tool&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;E:\\React_workplace\\fc_max\\node_modules\\stylelint&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;E:\\React_workplace\\fc_max\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\React_workplace\\fc_max\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\React_workplace\fc_max\src\pages\Tool" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +61,10 @@
       <option name="presentableId" value="Default" />
       <updated>1667017498144</updated>
       <workItem from="1667017499454" duration="2718000" />
+      <workItem from="1667020981770" duration="914000" />
+      <workItem from="1667042896425" duration="907000" />
+      <workItem from="1667285603084" duration="1585000" />
+      <workItem from="1667288980973" duration="3326000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <created>1667019081578</created>
@@ -67,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667020197465</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add 一元二次">
+      <created>1667021049176</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667021049176</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: change message language">
+      <created>1667021488244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667021488244</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +122,8 @@
     <MESSAGE value="feat: first commit" />
     <MESSAGE value="feat: add vercel config" />
     <MESSAGE value="feat: add 一元二次" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add 一元二次" />
+    <MESSAGE value="feat: change message language" />
+    <MESSAGE value="feat:add clustrmaps" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:add clustrmaps" />
   </component>
 </project>
