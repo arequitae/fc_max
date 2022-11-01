@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c9dcad4-2b00-436a-9fae-b755ad660b37" name="Changes" comment="feat: add tool directory">
-      <change afterPath="$PROJECT_DIR$/plugin.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Tool/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Tool/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/basicService/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
       <workItem from="1667020981770" duration="914000" />
       <workItem from="1667042896425" duration="907000" />
       <workItem from="1667285603084" duration="1585000" />
-      <workItem from="1667288980973" duration="3732000" />
+      <workItem from="1667288980973" duration="5350000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <created>1667019081578</created>
